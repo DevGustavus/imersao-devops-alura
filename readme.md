@@ -23,7 +23,11 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
      ```sh
      source venv/bin/activate
      ```
-   - No Windows:
+   - No Windows, abra um terminal no modo administrador e execute o comando:
+   ```sh
+   Set-ExecutionPolicy RemoteSigned
+   ```
+
      ```sh
      venv\Scripts\activate
      ```
@@ -47,6 +51,15 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ---
 
+## Autenticando no Google Cloud
+
+```sh
+gcloud auth login
+gcloud config set project PROJECT_ID
+gcloud run deploy --port=8000
+```
+
+
 ## Estrutura do Projeto
 
 - `app.py`: Arquivo principal da aplicação FastAPI.
@@ -60,15 +73,5 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 - O banco de dados SQLite será criado automaticamente como `escola.db` na primeira execução.
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
-
----
-
----
-
-## Palavra-Chave das aulas para o certificado
-
-1. MARVEL
-2. Ellis
-3.  
 
 ---
