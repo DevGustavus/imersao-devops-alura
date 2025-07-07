@@ -65,8 +65,10 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ---
 
-## Palavra-Chave da aula para o certificado
+## Palavra-Chave das aulas para o certificado
 
-- MARVEL
+1. MARVEL
+2. Ellis
+3.  
 
 ---
