@@ -75,3 +75,13 @@ gcloud run deploy --port=8000
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+---
+
+## Palavra-Chave das aulas para o certificado
+
+1. MARVEL
+2. Ellis
+3. YAML
+
+---
